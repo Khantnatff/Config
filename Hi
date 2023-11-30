@@ -415,7 +415,7 @@ Render:CreateToggle({
         end)  
     end        
 end})
-Utility:CreateToggle({
+Combat:CreateToggle({
     Name = "Customheartbar",
     Callback = function(Callback)
         if Callback then
@@ -459,7 +459,7 @@ Utility:CreateToggle({
 			end
 		end,
 	})
-Utility:CreateToggle({
+Blatant:CreateToggle({
   Name = "EnchantedEffect",
     Callback = function(Callback)
             if Callback then 
@@ -498,7 +498,7 @@ Utility:CreateToggle({
             end
         end
     })
-Utility:CreateToggle({
+Render:CreateToggle({
 		Name = "CustomKeystokes",
 		Callback = function(Callback)
 			if callback then 
@@ -506,7 +506,7 @@ Utility:CreateToggle({
 			end
 		end
 	})
-Utility:CreateToggle({
+Render:CreateToggle({
 Name = "CustomKeystokes",
 		Callback = function(Callback)
 		task.spawn(function()
